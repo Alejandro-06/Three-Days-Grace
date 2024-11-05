@@ -1,0 +1,20 @@
+div.logo {
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    margin-left: 0px;
+    background-color: black;
+}
+body {
+    background-image: url(images/tela.jpeg);
+    color: white;
+    font-size: x-large;
+    font-family: 'gotic'
+}
+
+@font-face {
+    font-family: 'gotic';
+    src: url(/fuente/fz-enjun-regular/Enjun-Regular.otf);
+    font-size: bold;
+    font-style: bold;
+}
