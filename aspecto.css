@@ -11,14 +11,37 @@ body {
     font-size: x-large;
     font-family: 'gotic'
 }
-h1 {
-    text-decoration: overline;
+h1.i {
     text-decoration: underline;
+    text-align: left;
+}
+h1.d {
+    text-decoration: underline;
+    text-align: right;
 }
 div.sep {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+}
+div.ig {
+    text-align: center;
+}
+div.disco {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+  }
+img.grupo {
+    width: 500px;
+    height: auto;
 }
 
 @font-face {
